@@ -1,0 +1,2 @@
+#!/bin/sh
+java -classpath /Users/zisen/selfmadeApp/vocab_learner MainActivity
