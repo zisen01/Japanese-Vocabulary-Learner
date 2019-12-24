@@ -1,6 +1,7 @@
 #!/bin/sh
 sh compile.sh
-MY_PATH=$PWD
+MY_PATH=$PWD | tr " " "\ " 
+
 echo "#!/bin/sh\njava -classpath $MY_PATH MainActivity"  > vocablearner
 chmod +x vocablearner
 cp vocablearner /usr/local/bin
