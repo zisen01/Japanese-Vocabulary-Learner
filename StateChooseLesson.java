@@ -26,6 +26,9 @@ public class StateChooseLesson{
 		//System.out.println(listOfFiles);
 		ArrayList<String> listOfLessons = new ArrayList<String>();
 		for (int i = 0; i < listOfFiles.length; i++){
+			if (listOfFiles[i].getName().startsWith(".")){
+				continue;
+			}
 			listOfLessons.add(listOfFiles[i].getName());
 		}
 		Collections.sort(listOfLessons);
@@ -46,7 +49,7 @@ public class StateChooseLesson{
 			String lessonPath = path+File.separator+n;
 			// File selected = new File("/Users/zisen/selfmadeApp/vocab_learner/vocab_lists/"+n);
 			File selected = new File(lessonPath);
-			if (selected.isFile()){
+			if (selected.isFile() && listOfLessons.contains(selected)){
 				return lessonPath;
 			}else{
 				System.out.println("Not a file!");
