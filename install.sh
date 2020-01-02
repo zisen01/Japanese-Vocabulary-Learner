@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 sh compile.sh # compile
 # create link to bin
 MY_PATH=$'#!/bin/sh\njava -classpath ${PWD// /\ }'
