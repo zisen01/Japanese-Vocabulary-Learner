@@ -28,7 +28,7 @@ the script comes with Genki I & II vocabulary in default. You can add your own v
   
   5. run the shell script using bash
   ```
-  sudo bash install.sh
+  bash install.sh
   ```
   
   then the application is installed and you can simply type 'vocablearner' in the terminal to run the app.
@@ -101,4 +101,11 @@ the script comes with Genki I & II vocabulary in default. You can add your own v
   e.g.えいご-English (language)
   
   spaces are allowed, there can only be one vocabulary each row.
+  
+# Uninstall
+  under project directory, run command:
+  ```
+  bash uninstall.sh
+  ```
+  then remove the project folder
   
