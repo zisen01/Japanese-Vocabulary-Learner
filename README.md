@@ -1,26 +1,26 @@
 # Japanese-Vocabulary-Learner
 
-Although the name says Japanese, this script is not limited to just Japanese vocabularies.
+Although the name says Japanese vocabulary, this script is not limited to just Japanese vocabularies.
 
-the script comes with Genki I & II vocabulary in default, but you can add your own vocabulary, too, and even study vocablulary in other languages.
+the script comes with Genki I & II vocabulary in default. You can add your own vocabulary, too, vocabulary in other languages are also supported.
 
 # Installation
 ## MacOS
-  1. to install various packages, you need HomeBrew (this is my personal recommendation, you can use other package manager that you like, but the examples are in homebrew)
+  1. to install various packages that we need, you need to install HomeBrew (this is my personal recommendation, you can use other package manager that you like, but the examples are in homebrew)
   
   get it here: https://brew.sh
   
-  2. you need Java development kit to compile the java code, so you need have JDK installed.
+  2. you also need Java development kit to compile the java code.
   ```
   brew cask install java
   ```
-  
+  the above command installs the latest JDK in default.
   3. you need git to clone the project (or you can download the package, but I recommend git for ease of upgrade.)
   ```
   brew install git
   ```
   
-  4. use the following code to clone the repository, and cd into the repository.
+  4. use the following code to clone the repository, and cd into the directory.
   ```
   git clone https://github.com/zisen01/Japanese-Vocabulary-Learner.git
   cd Japanese-Vocabulary-Learner
@@ -34,19 +34,20 @@ the script comes with Genki I & II vocabulary in default, but you can add your o
   then the application is installed and you can simply type 'vocablearner' in the terminal to run the app.
   
 ## Linux
-  1. you need Java development kit to compile the java code, so you need have JDK installed.
+  1. you need Java development kit to compile the java code.
   
   e.g.In Ubuntu, run the following code
   ```
   sudo apt-get update --fix-missing
   sudo apt-get install default-jdk
   ```
+  the above command installs the latest JDK in default.
   
   2. you need to have bash as most of my shell script is written in bash.
   
-  I think most Linux distributuion comes with bash, (unless you're a minimalist and use gentoo,etc. But then you don't need me to you tell you what to do, don't you :) )
+  I think most Linux distributuion comes with bash. (unless you're a minimalist and use gentoo, etc. But then you don't need me to you tell you what to do, don't you :) )
   
-  If there is no bash in your distribution, you can most likely able to install it using your distribution's package manager.
+  If there is no bash in your distribution, you can install it using your distribution's package manager.
   
   e.g. In Ubuntu, run the following code
   ```
@@ -62,7 +63,7 @@ the script comes with Genki I & II vocabulary in default, but you can add your o
   sudo apt-get install git
   ```
   
-  4. use the following code to clone the repository, and cd into the repository.
+  4. use the following code to clone the repository, and cd into the directory.
   ```
   git clone https://github.com/zisen01/Japanese-Vocabulary-Learner.git
   cd Japanese-Vocabulary-Learner
