@@ -13,11 +13,11 @@ Although the name says Japanese, this script is not limited to just Japanese voc
   ```
   brew install git
   ```
-  4. use
+  4. use the following code to clone the repository, and cd into the repository.
   ```
   git clone https://github.com/zisen01/Japanese-Vocabulary-Learner.git
+  cd Japanese-Vocabulary-Learner
   ```
-  to clone the repository, and cd into the repository.
   5. run the shell script using bash
   ```
   sudo bash install.sh
@@ -45,11 +45,11 @@ Although the name says Japanese, this script is not limited to just Japanese voc
   sudo apt-get update
   sudo apt-get install git
   ```
-  4. use
+  4. use the following code to clone the repository, and cd into the repository.
   ```
   git clone https://github.com/zisen01/Japanese-Vocabulary-Learner.git
+  cd Japanese-Vocabulary-Learner
   ```
-  to clone the repository, and cd into the repository.
   5. run the shell script using bash
   ```
   sudo bash install.sh
