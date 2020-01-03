@@ -1,5 +1,6 @@
 # Japanese-Vocabulary-Learner
 Although the name says Japanese, this script is not limited to just Japanese vocabularies.
+the script comes with Genki I & II vocabulary in default, but you can add your own vocabulary, too, and even study vocablulary in other languages.
 
 # Installation
 ## MacOS
@@ -66,3 +67,14 @@ Although the name says Japanese, this script is not limited to just Japanese voc
   or you can search 'Turn Windows features on or off' at cortana search bar, click the first outcome. When the window pops up, scroll down and check the checkbox before the item 'Windows Subsystem for Linux'.
   
   2. go to the Microsoft store and select the WSL you like (I presonally recommend Ubuntu for the abundance of the community helf it provides), install it and follow the installation guide for Linux
+
+# Create Vocabulary list
+  under your directory home, use the cd command:
+  ```
+  cd Jvocan_learner/vocab_list/
+  ```
+  and create a file using the editor you like, inside your file put the vocabulary you want to learn following the structure:
+  [vocab]-[definition]
+  e.g.えいご-English (language)
+  spaces are allowed, there can only be one vocabulary each row.
+  
