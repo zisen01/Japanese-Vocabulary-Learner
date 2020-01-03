@@ -1,7 +1,7 @@
 #!/bin/bash
 sh compile.sh # compile
 # create link to bin
-MY_PATH=$'#!/bin/bash\njava -classpath ${PWD// /\ }'
+MY_PATH=$'#!/bin/bash\njava -classpath ${PWD// /\\ }'
 echo "$MY_PATH/ MainActivity"  > vocablearner
 chmod +x vocablearner
 cp vocablearner /usr/local/bin
