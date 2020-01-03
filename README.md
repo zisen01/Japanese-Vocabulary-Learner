@@ -86,7 +86,7 @@ the script comes with Genki I & II vocabulary in default, but you can add your o
   
   or you can search 'Turn Windows features on or off' at cortana search bar, click the first outcome. When the window pops up, scroll down and check the checkbox before the item 'Windows Subsystem for Linux'.
   
-  2. go to the Microsoft store and select the WSL you like (I presonally recommend Ubuntu for the abundance of the community helf it provides), install it and follow the installation guide for Linux
+  2. go to the Microsoft store and select the WSL you like (I presonally recommend Ubuntu for the abundance of the community help it provides), install it and follow the installation guide for Linux
 
 # Create Vocabulary list
   under your directory home, use the cd command:
