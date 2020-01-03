@@ -2,7 +2,7 @@
 Although the name says Japanese, this script is not limited to just Japanese vocabularies.
 
 # Installation
-##MacOS
+## MacOS
   1. to install various packages, you need HomeBrew (this is my personal recommendation, you can use other package manager that you like, but the examples are in homebrew)
   get it here: https://brew.sh
   2. you need Java development kit to compile the java code, so you need have JDK installed.
@@ -15,7 +15,7 @@ Although the name says Japanese, this script is not limited to just Japanese voc
   ```
   4. use
   ```
-  git clone 'URL of this repository'
+  git clone https://github.com/zisen01/Japanese-Vocabulary-Learner.git
   ```
   to clone the repository, and cd into the repository.
   5. run the shell script using bash
@@ -24,7 +24,7 @@ Although the name says Japanese, this script is not limited to just Japanese voc
   ```
   then the application is installed and you can simply type 'vocablearner' in the terminal to run the app.
   
-##Linux
+## Linux
   1. you need Java development kit to compile the java code, so you need have JDK installed.
   e.g.In Ubuntu, run the following code
   ```
@@ -47,7 +47,7 @@ Although the name says Japanese, this script is not limited to just Japanese voc
   ```
   4. use
   ```
-  git clone 'URL of this repository'
+  git clone https://github.com/zisen01/Japanese-Vocabulary-Learner.git
   ```
   to clone the repository, and cd into the repository.
   5. run the shell script using bash
@@ -56,7 +56,7 @@ Although the name says Japanese, this script is not limited to just Japanese voc
   ```
   then the application is installed and you can simply type 'vocablearner' in the terminal to run the app.
   
-##Windows
+## Windows
   There is no native solution to windows currently, but you can install to WSL(Windows subsystem for Linux).
   to get WSL:
   1. you need to enable WSL in settings, you can paste the code below in your powershell to enable.
