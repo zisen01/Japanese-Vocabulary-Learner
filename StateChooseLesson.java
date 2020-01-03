@@ -49,7 +49,7 @@ public class StateChooseLesson{
 			String lessonPath = path+File.separator+n;
 			// File selected = new File("/Users/zisen/selfmadeApp/vocab_learner/vocab_lists/"+n);
 			File selected = new File(lessonPath);
-			if (selected.isFile() && listOfLessons.contains(selected)){
+			if (selected.isFile()){
 				return lessonPath;
 			}else{
 				System.out.println("Not a file!");
