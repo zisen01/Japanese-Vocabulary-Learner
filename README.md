@@ -15,7 +15,7 @@ the script comes with Genki I & II vocabulary in default, but you can add your o
   brew cask install java
   ```
   
-  3. you need git, or you can download the package, too, but I recommend git for ease of upgrade.
+  3. you need git to clone the project (or you can download the package, but I recommend git for ease of upgrade.)
   ```
   brew install git
   ```
@@ -46,7 +46,7 @@ the script comes with Genki I & II vocabulary in default, but you can add your o
   
   I think most Linux distributuion comes with bash, (unless you're a minimalist and use gentoo,etc. But then you don't need me to you tell you what to do, don't you :) )
   
-  If there is no bash in your distribution, you will most likely be able to install it using your distribution's package manager.
+  If there is no bash in your distribution, you can most likely able to install it using your distribution's package manager.
   
   e.g. In Ubuntu, run the following code
   ```
@@ -54,7 +54,7 @@ the script comes with Genki I & II vocabulary in default, but you can add your o
   sudo apt-get install bash
   ```
   
-  3. you need git, or you can download the package, too, but I recommend git for ease of upgrade.
+  3. you need git to clone the project (or you can download the package, but I recommend git for ease of upgrade.)
   
   e.g. In Ubuntu, run the following code
   ```
@@ -89,7 +89,7 @@ the script comes with Genki I & II vocabulary in default, but you can add your o
   2. go to the Microsoft store and select the WSL you like (I presonally recommend Ubuntu for the abundance of the community help it provides), install it and follow the installation guide for Linux
 
 # Create Vocabulary list
-  under your directory home, use the cd command:
+  under your home directory, use the cd command:
   ```
   cd Jvocan_learner/vocab_list/
   ```
