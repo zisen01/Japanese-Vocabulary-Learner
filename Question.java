@@ -30,12 +30,10 @@ public class Question{
 		if (n==this.answerID){
 			System.out.println("Correct");
 			return true;
-		}else if (n >= 0){
-			System.out.print("Wrong ");
+		}else{
+			System.out.println("Wrong");
 			System.out.println("Answer:"+this.answer);
 			return false;
-		}else{
-			return null;
 		}
 
 	}
@@ -53,7 +51,7 @@ public class Question{
 			return;
 		}
 	}
-	
+
 	private void printQuestion(){
 		System.out.println("Choose the correct definition for:"+this.question);
 		for (int i=0; i<this.confusingOptions.size(); i++){
@@ -69,7 +67,7 @@ public class Question{
 		while (true){
 			try {
 				int n = reader.nextInt();
-				if (n >= 0){
+				if ((n >= 0) && (n<=3)){
 					return n;
 				}else{
 					System.out.println("Please enter a legit number!");
@@ -82,7 +80,7 @@ public class Question{
 				continue;
 			}
 		}
-		
+
 	}
 	public String getQuestion(){
 		return this.question;
@@ -91,4 +89,3 @@ public class Question{
 		return this.answer;
 	}
 }
-
