@@ -75,6 +75,7 @@ the script comes with Genki I & II vocabulary in default, but you can add your o
   ```
   and create a file using the editor you like, inside your file put the vocabulary you want to learn following the structure:
   [vocab]-[definition]
+  
   e.g.えいご-English (language)
   spaces are allowed, there can only be one vocabulary each row.
   
