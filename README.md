@@ -15,6 +15,7 @@ the script comes with Genki I & II vocabulary in default. You can add your own v
   brew cask install java
   ```
   the above command installs the latest JDK in default.
+  
   3. you need git to clone the project (or you can download the package, but I recommend git for ease of upgrade.)
   ```
   brew install git
